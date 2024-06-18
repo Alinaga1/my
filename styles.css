@@ -1,0 +1,15 @@
+.red-square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0%, 50% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
